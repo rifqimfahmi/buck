@@ -131,7 +131,7 @@ public class MiniAapt implements Step {
         resDirectory,
         pathToTextSymbolsFile,
         pathsToSymbolsOfDeps,
-        /* resourceUnion */ false,
+        /* resourceUnion */ true,
         /* isGrayscaleImageProcessingEnabled */ false,
         ResourceCollectionType.R_DOT_TXT);
   }
